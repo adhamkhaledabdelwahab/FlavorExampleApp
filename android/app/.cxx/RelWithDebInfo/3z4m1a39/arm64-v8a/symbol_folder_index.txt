@@ -1,0 +1,1 @@
+/Users/adhamkhaled/StudioProjects/FlavorExampleApp/build/app/intermediates/cxx/RelWithDebInfo/3z4m1a39/obj/arm64-v8a
