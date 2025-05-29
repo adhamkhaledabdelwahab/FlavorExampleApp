@@ -6,7 +6,7 @@ enum Flavor {
 class F {
   static Flavor? appFlavor;
 
-  static String get name => appFlavor?.name ?? '';
+  static String get name => appFlavor?.name ?? 'main';
 
   static String get logo {
     switch (appFlavor) {
