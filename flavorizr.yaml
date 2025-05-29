@@ -1,4 +1,21 @@
 flavors:
+  core:
+    app:
+      name: "Core App"
+    android:
+      applicationId: "com.example.core"
+      icon: "assets/images/core/logo.jpg"
+#      firebase:
+#        config: "firebase/core/google-services.json"
+      customConfig:
+        signingConfig: signingConfigs.core
+    ios:
+      bundleId: "com.example.core"
+      icon: "assets/images/core/logo.jpg"
+#      firebase:
+#        config: "firebase/core/GoogleService-Info.plist"
+    assets:
+      - assets/images/core/
   apple:
     app:
       name: "Apple App"
@@ -7,6 +24,8 @@ flavors:
       icon: "assets/images/apple/logo.png"
 #      firebase:
 #        config: "firebase/apple/google-services.json"
+      customConfig:
+        signingConfig: signingConfigs.apple
     ios:
       bundleId: "com.example.apple"
       icon: "assets/images/apple/logo.png"
@@ -22,6 +41,8 @@ flavors:
       icon: "assets/images/banana/logo.png"
 #      firebase:
 #        config: "firebase/banana/google-services.json"
+      customConfig:
+        signingConfig: signingConfigs.banana
     ios:
       bundleId: "com.example.banana"
       icon: "assets/images/banana/logo.png"
@@ -29,3 +50,5 @@ flavors:
 #        config: "firebase/banana/GoogleService-Info.plist"
     assets:
       - assets/images/banana/
+
+ide: "idea"
