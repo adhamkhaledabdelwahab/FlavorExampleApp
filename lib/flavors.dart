@@ -15,7 +15,7 @@ class F {
       case Flavor.banana:
         return 'assets/images/banana/logo.png';
       default:
-        return '';
+        return 'assets/images/main/logo.png';
     }
   }
 
@@ -26,7 +26,7 @@ class F {
       case Flavor.banana:
         return 'Banana App';
       default:
-        return 'title';
+        return 'Main App';
     }
   }
 }

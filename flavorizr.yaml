@@ -6,11 +6,20 @@ flavors:
     android:
       applicationId: "com.example.apple"
       icon: "assets/images/apple/logo.png"
+#      firebase:
+#        config: "firebase/apple/google-services.json"
+      resValues:
+        app_name:
+          type: "string"
+          value: "Apple App"
     ios:
       bundleId: "com.example.apple"
       icon: "assets/images/apple/logo.png"
-    macos:
-      bundleId: "com.example.apple"
+#      firebase:
+#        config: "firebase/apple/GoogleService-Info.plist"
+      variables:
+        BUNDLE_DISPLAY_NAME:
+          value: "Apple App"
     assets:
       - assets/images/apple/
   banana:
@@ -20,10 +29,19 @@ flavors:
     android:
       applicationId: "com.example.banana"
       icon: "assets/images/banana/logo.png"
+#      firebase:
+#        config: "firebase/banana/google-services.json"
+      resValues:
+        app_name:
+          type: "string"
+          value: "Banana App"
     ios:
       bundleId: "com.example.banana"
       icon: "assets/images/banana/logo.png"
-    macos:
-      bundleId: "com.example.banana"
+#      firebase:
+#        config: "firebase/banana/GoogleService-Info.plist"
+      variables:
+        BUNDLE_DISPLAY_NAME:
+          value: "Banana App"
     assets:
       - assets/images/banana/
