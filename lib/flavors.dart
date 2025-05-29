@@ -15,7 +15,7 @@ class F {
       case Flavor.banana:
         return 'assets/images/banana/logo.png';
       default:
-        return 'assets/images/main/logo.png';
+        return 'assets/images/main/logo.jpg';
     }
   }
 
