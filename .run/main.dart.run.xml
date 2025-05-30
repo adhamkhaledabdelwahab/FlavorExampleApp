@@ -1,9 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-    <option name="buildFlavor" value="core" />
-    <option name="filePath" value="$PROJECT_DIR$/lib/main_core.dart" />
-    <method v="2">
-      <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_update yaml assets to main app" />
-    </method>
-  </configuration>
-</component>
