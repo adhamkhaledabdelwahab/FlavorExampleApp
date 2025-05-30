@@ -1,4 +1,1 @@
 #include "Generated.xcconfig"
-
-BUNDLE_NAME=Main App
-BUNDLE_DISPLAY_NAME=Main App
